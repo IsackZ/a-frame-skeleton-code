@@ -7,11 +7,14 @@
   <body>
     <a-scene id = "scene">
       
-      <a-sphere position="0 1.5 -5" radius="1.5" color="white"></a-sphere>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sphere position="0 3.5 -5" radius="1" color="white"></a-sphere>
-      <a-sphere position="0 5.0 -5" radius="0.66" color="white"></a-sphere>
-      <a-sky color="white"></a-sky>
+      <a-entity gltf-model = "url(LSDTripG.glb)" pposition = "0 10 -4" scale = " 1 "></a-entity>
+      <a-entity gltf-modosition = "0 0 -4" scale = "0.5 0.5"></a-entity>
+      <a-entity gltf-model = "url(LSDTripS1.glb)" el = "url(LSDTripS1.glb)" position = "10 10 -10" scale = " 1 "></a-entity>
+      <a-entity gltf-model = "url(LSDTripS1.glb)" position = "20 10 -10" scale = " 1 "></a-entity>
+      <a-entity gltf-model = "url(LSDTripS1.glb)" position = "30 10 -20" scale = " 1 "></a-entity>
+      <a-plane position="0 -2 -10" rotation="-90 0 0" width="1000" height="1000" color="#7BC8A4"></a-plane>
+      
+      <a-sky color= SkyColor></a-sky>
     </a-scene>
       <script src = "script.js"> </script>
   </body>
